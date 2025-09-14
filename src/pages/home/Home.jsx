@@ -20,7 +20,7 @@ const Home = () => {
             {/* Right Illustration */}
             <div className="col-12 col-md-6 d-flex justify-content-center">
               <img
-                src="../src/assets/homeB.png"
+                src="/homeB.png"
                 alt="Globe with book illustration"
                 className="img-fluid rounded shadow-sm"
                 style={{ maxHeight: "300px", objectFit: "contain" }}

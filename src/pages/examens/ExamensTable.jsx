@@ -183,13 +183,13 @@ const ExamensTable= ({title,examenList=[]}) => {
                         #
                       </th>
                       <th className="py-4 px-4 fw-bold" style={{ width: '50%' }}>
-                        📖 عنوان الدورة
+                        📖 العنوان
                       </th>
                      <th className="py-4 px-4 fw-bold text-center" style={{ borderRadius: '0 15px 0 0', width: '25%' }}>
                         📄 ملف PDF
                       </th>
                       <th className="py-4 px-4 fw-bold text-center" style={{ borderRadius: '0 15px 0 0', width: '25%' }}>
-                        📄 المصتلحات                      </th>
+                        📄 المصطلحات                      </th>
 
                         {
                           currentUser?(<th className="py-4 px-4 fw-bold text-center" style={{ borderRadius: '0 15px 0 0', width: '25%' }}>

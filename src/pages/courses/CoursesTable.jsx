@@ -182,18 +182,19 @@ const CoursesTable = ({title,courseList=[]}) => {
                         #
                       </th>
                       <th className="py-4 px-4 fw-bold" style={{ width: '50%' }}>
-                        📖 عنوان الدورة
+                        📖 عنوان الدرس
                       </th>
                      <th className="py-4 px-4 fw-bold text-center" style={{ borderRadius: '0 15px 0 0', width: '25%' }}>
                         📄 ملف PDF
                       </th>
                       <th className="py-4 px-4 fw-bold text-center" style={{ borderRadius: '0 15px 0 0', width: '25%' }}>
-                        📄 المصتلحات                      </th>
+                        📄 المصطلحات                    </th>
 
                         {
                           currentUser?(<th className="py-4 px-4 fw-bold text-center" style={{ borderRadius: '0 15px 0 0', width: '25%' }}>
                         📄 التحكم                  </th>):<></>
                         }
+                         
                          
                     </tr>
                   </thead>

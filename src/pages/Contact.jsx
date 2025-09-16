@@ -93,7 +93,7 @@ const Contact = () => {
                     <div className="bg-secondary text-white p-2 rounded ms-2">
                       <MapPin size={20} />
                     </div>
-                    <span className="fw-medium text-dark">المغرب، الرباط</span>
+                    <span className="fw-medium text-dark">المغرب، الدار البيضاء</span>
                   </div>
                   <div className="d-flex align-items-center">
                     <div className="bg-warning text-white p-2 rounded ms-2">

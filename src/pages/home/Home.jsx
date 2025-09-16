@@ -11,16 +11,16 @@ const Home = () => {
           <div className="row align-items-center g-5">
             {/* Left Content */}
             <div className="col-12 col-md-6 text-center text-md-start">
-              <h2 className="fs-1 fw-bold text-dark mb-4">الاولى بكالوريا</h2>
-              <p className="fs-5 text-muted mb-2">نقدم دروس التاريخ اجغرافيا</p>
-              <p className="fs-5 text-muted mb-4">للصف الأول بكالوريا</p>
+              <h2 className="fs-1 fw-bold text-dark mb-4">دروس التاريخ والجغرافيا للأولى بكالوريا</h2>
+              <p className="fs-5 text-muted mb-2"></p>
+              <p className="fs-5 text-muted mb-4">( الشعب العلمية والتقنية)</p>
               <button className="btn btn-success btn-lg">بدء الدراسة</button>
             </div>
 
             {/* Right Illustration */}
             <div className="col-12 col-md-6 d-flex justify-content-center">
               <img
-                src="/homeB.png"
+                src="../src/assets/homeB.png"
                 alt="Globe with book illustration"
                 className="img-fluid rounded shadow-sm"
                 style={{ maxHeight: "300px", objectFit: "contain" }}
@@ -45,11 +45,11 @@ const Home = () => {
                     <Monitor className="text-white" />
                   </div>
                   <div>
-                    <h4 className="fs-3 fw-bold text-dark mb-2">دروس التاريخ والجغرافيا للأولى بكالوريا ( الشعب العلمية والتقنية)</h4>
-                    <p className="text-muted">مبدئيات التاريخية</p>
+                    <h4 className="fs-3 fw-bold text-dark mb-2">دروس التاريخ</h4>
+                    <p className="text-muted"></p>
                   </div>
                 </div>
-                <p className="text-dark mb-0">محفل الأول للعام لد نوفمبر</p>
+                <p className="text-dark mb-0"></p>
               </div>
               </Link>
             </div>
@@ -63,11 +63,11 @@ const Home = () => {
                     <MapPin className="text-white" />
                   </div>
                   <div>
-                    <h4 className="fs-3 fw-bold text-dark mb-2">درس الجغرافيا</h4>
-                    <p className="text-muted">دروس تطبيقية أفريقية</p>
+                    <h4 className="fs-3 fw-bold text-dark mb-2">دروس الجغرافيا</h4>
+                    <p className="text-muted"></p>
                   </div>
                 </div>
-                <p className="text-dark mb-0">صوديو رياسد أجديس القريبة</p>
+                <p className="text-dark mb-0"></p>
               </div>
               </Link>
             </div>
@@ -81,10 +81,10 @@ const Home = () => {
                   </div>
                   <div>
                     <h4 className="fs-3 fw-bold text-dark mb-2">الامتحانات</h4>
-                    <p className="text-muted">دروس تطبيقية أفريقية</p>
+                    <p className="text-muted">نمادج امتحانات جهوية</p>
                   </div>
                 </div>
-                <p className="text-dark mb-0">صوديو رياسد أجديس القريبة</p>
+                <p className="text-dark mb-0"></p>
               </div>
               </Link>
             </div>
@@ -98,10 +98,10 @@ const Home = () => {
                   </div>
                   <div>
                     <h4 className="fs-3 fw-bold text-dark mb-2">التمارين</h4>
-                    <p className="text-muted">دروس تطبيقية أفريقية</p>
+                    <p className="text-muted">تمارين تطبيقية</p>
                   </div>
                 </div>
-                <p className="text-dark mb-0">صوديو رياسد أجديس القريبة</p>
+                <p className="text-dark mb-0"></p>
               </div>
               </Link>
             </div>

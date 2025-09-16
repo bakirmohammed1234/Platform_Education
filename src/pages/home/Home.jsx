@@ -45,7 +45,7 @@ const Home = () => {
                     <Monitor className="text-white" />
                   </div>
                   <div>
-                    <h4 className="fs-3 fw-bold text-dark mb-2">درس التاريخ</h4>
+                    <h4 className="fs-3 fw-bold text-dark mb-2">دروس التاريخ والجغرافيا للأولى بكالوريا ( الشعب العلمية والتقنية)</h4>
                     <p className="text-muted">مبدئيات التاريخية</p>
                   </div>
                 </div>

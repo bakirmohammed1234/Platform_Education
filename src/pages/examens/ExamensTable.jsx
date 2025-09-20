@@ -35,7 +35,7 @@ const ExamensTable= ({title,examenList=[]}) => {
 
     // Supprimer les fichiers Cloudinary si publicId existe
     if (examenPublicId) {
-      await fetch("/api/index/delete-file", {
+      await fetch("/api/delete-file", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ publicId: examenPublicId }),
@@ -43,7 +43,7 @@ const ExamensTable= ({title,examenList=[]}) => {
     }
 
     if (caracterePublicId) {
-      await fetch("/api/index/delete-file", {
+      await fetch("/api/delete-file", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ publicId: caracterePublicId }),

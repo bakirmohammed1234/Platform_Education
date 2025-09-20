@@ -16,12 +16,12 @@ import { getFirestore } from "firebase/firestore";
 // };
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBsr6eHpjs1WICRVkBu9I0RbOq5x7SP3Lk",
-  authDomain: "oussama-education.firebaseapp.com",
-  projectId: "oussama-education",
-  storageBucket: "oussama-education.firebasestorage.app",
-  messagingSenderId: "524222470551",
-  appId: "1:524222470551:web:163fe6c4e50506b2238cd2"
+  apiKey: "AIzaSyDMRprAZAVPmOrzXHFitfGueGkyfsGZNFY",
+  authDomain: "oussamataibeducation.firebaseapp.com",
+  projectId: "oussamataibeducation",
+  storageBucket: "oussamataibeducation.firebasestorage.app",
+  messagingSenderId: "836613197690",
+  appId: "1:836613197690:web:90d9f4499f3f74663450c3"
 };
 
 // Initialize Firebase

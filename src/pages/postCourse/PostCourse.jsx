@@ -29,7 +29,7 @@ function PostCourse() {
     fd.append("upload_preset", "ours_preset");
     fd.append("resource_type", "raw");
 
-    const res = await fetch("https://api.cloudinary.com/v1_1/dbxujx8qd/raw/upload", {
+    const res = await fetch("https://api.cloudinary.com/v1_1/dahm5xom1/raw/upload", {
       method: "POST",
       body: fd
     });

@@ -28,7 +28,7 @@ function PostExercice() {
     fd.append("upload_preset", "ours_preset");
     fd.append("resource_type", "raw");
 
-    const res = await fetch("https://api.cloudinary.com/v1_1/dbxujx8qd/raw/upload", {
+    const res = await fetch("https://api.cloudinary.com/v1_1/dahm5xom1/raw/upload", {
       method: "POST",
       body: fd
     });
@@ -52,10 +52,10 @@ function PostExercice() {
 
       // ajoute aussi le champ publicId correspondant
       setFormData(prev => ({
-  ...prev,
-  [name]: url,
-  [name === "exerciceUrl" ? "exercicePublicId" : "caracterePublicId"]: publicId
-  }));
+        ...prev,
+        [name]: url,
+        [name === "exerciceUrl" ? "exercicePublicId" : "caracterePublicId"]: publicId
+      }));
 
       setSuccessMessage(`${name === 'exerciceUrl' ? "Exercices" : "Caractère"} PDF uploadé avec succès !`);
     } catch (err) {
@@ -97,7 +97,7 @@ function PostExercice() {
             <input name="caractereUrl" type="file" className="form-control" accept=".pdf" onChange={handleFileChange} />
           </div>
 
-          
+
 
           {successMessage && (
             <div className="alert alert-success py-2 text-center">{successMessage}</div>
